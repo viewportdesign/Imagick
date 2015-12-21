@@ -3,8 +3,11 @@ Imagick is a Jquery Library that enables pure client side Image Upload Preview, 
 
 # How To Use
 1.) Include JQuery using Google CDN or Locally 
+
 2.) Include imagick.js in /lib Folder 
+
 3.) Have somewhere a input type="file" Element in DOM 
+
 4.) Have somewhere a container with ID preview 
 
 # JavaScript Documentation 
