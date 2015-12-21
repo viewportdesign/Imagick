@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* Very Basic Stylesheet */
+
+#preview img 
+{
+ 	width:200px;
+	height:auto;
+	float:left;
+	margin:5px;	
+}
+
