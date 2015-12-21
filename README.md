@@ -1,7 +1,17 @@
 # Imagick
+
 Imagick is a Jquery Library that enables pure client side Image Upload Preview, using the HTML5 FileReader API. Full Demo aavailable.
 
+
+# Features
+
+--> preview selected Image Files through local FileReader in HTML5 compatible Browser
+
+--> working on both multiple and single input type file elements
+
+
 # How To Use
+
 1.) Include JQuery using Google CDN or Locally 
 
 2.) Include imagick.js in /lib Folder 
@@ -10,12 +20,16 @@ Imagick is a Jquery Library that enables pure client side Image Upload Preview, 
 
 4.) Have somewhere a container with ID preview 
 
+
 # JavaScript Documentation 
+
 Imagick creates a local object named Imagick, which currently supplies 1 function named init(), this will be called and set up automatically if option autoload is set to true in imagick.js. 
 
 If not you can always manually call Imagick.init() which will automatically erase and reinit eventHandlers. 
 
+
 # Options 
+
 There are three options available: ( /lib/imagick.js on first lines) 
 
 var inputSelector = 'input[type="file"]'; // Selector for FileInput Element
