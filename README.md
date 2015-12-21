@@ -32,8 +32,10 @@ If not you can always manually call Imagick.init() which will automatically eras
 
 There are three options available: ( /lib/imagick.js on first lines) 
 
+```
 var inputSelector = 'input[type="file"]'; // Selector for FileInput Element
 
 var previewSelector = '#preview'; // Container in which the preview Image Files will appear in
 
 var autoload = true; // if you don't want auto init you can set this to false
+```
